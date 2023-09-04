@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+.h1-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  margin-top: 0;
+  border-style: dashed;
+  align-content: center;
+}
+
+.first-heading {
+  font-size: 4em;
+  margin-top: 0;
+  border-style: dashed;
+  align-content: center;
+
+}
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+.eka-lista, .toka-lista {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  margin-top: 0;
+  border-style: solid;
+  align-content: center;
+}
